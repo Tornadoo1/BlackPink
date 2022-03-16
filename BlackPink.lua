@@ -9917,7 +9917,7 @@ data = {
 {text = 'Channel Source ،', url = 't.me/TorNaDo_Team0'}, 
 },
 {
-{text = 'My Channel', url = 't.me/TorNaDo_Team0'}, 
+{text = 'My Channel', url = 't.me/plllpp'}, 
 },
 {
 {text = 'Communication Source', url = 't.me/TornadooBot'}, 
