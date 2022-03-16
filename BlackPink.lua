@@ -1,7 +1,7 @@
 ------------------------------------------------
 -- This Source Was Developed By (BlackPink) @PPPPPE.--
 --   This Is The Source Channel @PPPPPE .   --
---                - B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸-                 --
+--                - TorNaDo-                 --
 --        -- https://t.me/PPPPPE --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
@@ -716,12 +716,12 @@ else
 UserInfousername = '['..UserInfo.first_name..'](tg://user?id='..UserId..')'
 end
 return {
-Lock     = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/plllpp)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
-unLock   = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/plllpp)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
-lockKtm  = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/plllpp)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
-lockKid  = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/plllpp)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
-lockKick = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/plllpp)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
-Reply    = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/plllpp)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
+Lock     = '[TorNaDo](https://t.me/TorNaDo_Team0)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
+unLock   = '[TorNaDo](https://t.me/TorNaDo_Team0)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
+lockKtm  = '[TorNaDo](https://t.me/TorNaDo_Team0)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
+lockKid  = '[TorNaDo](https://t.me/TorNaDo_Team0)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
+lockKick = '[TorNaDo](https://t.me/TorNaDo_Team0)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
+Reply    = '[TorNaDo](https://t.me/TorNaDo_Team0)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
 }
 end
 function StatusCanOrNotCan(ChatId,UserId)
@@ -1575,7 +1575,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/plllpp'},
+{text = 'TorNaDo ⁦', url='https://t.me/TorNaDo_Team0'},
 },
 }
 }
@@ -1772,7 +1772,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/plllpp'},
+{text = 'TorNaDo ⁦', url='https://t.me/TorNaDo_Team0'},
 },
 }
 }
@@ -2046,7 +2046,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/plllpp'},
+{text = 'TorNaDo ⁦', url='https://t.me/TorNaDo_Team0'},
 },
 }
 }
@@ -2323,7 +2323,7 @@ if not msg.ControllerBot then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*᥀︙هاذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true)  
 end
 os.execute('rm -rf BlackPink.lua')
-download('https://raw.githubusercontent.com/MaLaTH-M/BlackPink/main/BlackPink.lua','BlackPink.lua')
+download('raw.githubusercontent.com/Tornadoo1/BlackPink/main/BlackPink.lua','BlackPink.lua')
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*᥀︙تم تحديث السورس * ',"md",true)  
 end
 if text == '『 تعطيل الاذاعه 』' or text == 'تعطيل الاذاعه' then
@@ -2643,7 +2643,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'},
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'},
 },
 }
 }
@@ -2726,7 +2726,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'},
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'},
 },
 }
 }
@@ -3074,7 +3074,7 @@ if text == 'رتبتي' then
 local ban = LuaTele.getUser(msg.sender.user_id)
 local news = ' '..msg.Name_Controller
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {
-{{text =news,url = "https://t.me/plllpp"}, },}}
+{{text =news,url = "https://t.me/TorNaDo_Team0"}, },}}
 return LuaTele.sendText(msg_chat_id,msg_id,'\n᥀︙رتبتك هي : '..msg.Name_Controller,"md", false, false, false, false, reply_markup)
 end
 if text == 'ايديي' then
@@ -4535,7 +4535,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url='https://t.me/plllpp'},
+{text = 'TorNaDo', url='https://t.me/TorNaDo_Team0'},
 },
 }
 }
@@ -5058,7 +5058,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* ᥀︙ هاذا الامر يخص 『 '..Controller_Num(2)..' 』* ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/plllpp'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/TorNaDo_Team0'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ᥀︙ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local UserId_Info = LuaTele.searchPublicChat(UserName)
@@ -5099,7 +5099,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* ᥀︙ هاذا الامر يخص 『 '..Controller_Num(2)..' 』* ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/plllpp'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/TorNaDo_Team0'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ᥀︙ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local UserId_Info = LuaTele.searchPublicChat(UserName)
@@ -5573,7 +5573,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* ᥀︙ هاذا الامر يخص 『 '..Controller_Num(2)..' 』* ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/plllpp'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/TorNaDo_Team0'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ᥀︙ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local Message_Reply = LuaTele.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -5611,7 +5611,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* ᥀︙ هاذا الامر يخص 『 '..Controller_Num(2)..' 』* ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/plllpp'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/TorNaDo_Team0'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ᥀︙ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local Message_Reply = LuaTele.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -6259,7 +6259,7 @@ local TestText = "  ❲ Owner Groups ❳\n— — — — — — — — —\n 
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/plllpp"}
+{text = '❲ TorNaDo ❳', url = "https://t.me/TorNaDo_Team0"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6665,7 +6665,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳',url="t.me/plllpp"}
+{text = '❲ TorNaDo ❳',url="t.me/TorNaDo_Team0"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6676,7 +6676,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار متحركه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳',url="t.me/plllpp"}},
+{{text = '❲ TorNaDo ❳',url="t.me/TorNaDo_Team0"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendanimation?chat_id=' .. msg.chat_id .. '&animation=https://t.me/GifDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6686,7 +6686,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الشعر لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳',url="t.me/plllpp"}},
+{{text = '❲ TorNaDo ❳',url="t.me/TorNaDo_Team0"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/L1BBBL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6696,7 +6696,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الميمز لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳',url="t.me/plllpp"}},
+{{text = '❲ TorNaDo ❳',url="t.me/TorNaDo_Team0"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/remixsource/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6707,7 +6707,7 @@ local Text ='*᥀︙تم اختيار ريمكس لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/plllpp"}
+{text = '❲ TorNaDo ❳', url = "https://t.me/TorNaDo_Team0"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6719,7 +6719,7 @@ local Text ='*᥀︙تم اختيار الفلم لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/plllpp"}
+{text = '❲ TorNaDo ❳', url = "https://t.me/TorNaDo_Team0"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6731,7 +6731,7 @@ local Text ='*᥀︙تم اختيار انمي لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/plllpp"}
+{text = '❲ TorNaDo ❳', url = "https://t.me/TorNaDo_Team0"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6742,7 +6742,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳',url="t.me/plllpp"}},
+{{text = '❲ TorNaDo ❳',url="t.me/TorNaDo_Team0"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/lDIDIl/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6753,7 +6753,7 @@ local Text ='*᥀︙تم اختيار صور*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/plllpp"}
+{text = '❲ TorNaDo ❳', url = "https://t.me/TorNaDo_Team0"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -8433,7 +8433,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -9775,7 +9775,7 @@ Redis:del(TheBlackPink..'BlackPink:Texting:DevTheBlackPink')
 return LuaTele.sendText(msg_chat_id,msg_id,'᥀︙ تم حذف كليشه المطور')
 end
 if text == 'مبرمج سورس' or text == 'مبرمج السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("PPPPPE")
+local UserId_Info = LuaTele.searchPublicChat("aSsSsr")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -9786,11 +9786,11 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  ❲ BlackPink 𝖲𝗈𝗎𝗋𝖼𝖾 ❳\n— — — — — — — — —\n ᥀︙*Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n᥀︙*Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ❲ TorNaDo 𝖲𝗈𝗎𝗋𝖼𝖾 ❳\n— — — — — — — — —\n ᥀︙*Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n᥀︙*Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/plllpp"}
+{text = '❲ TorNaDo ❳', url = "https://t.me/TorNaDo_Team0"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9800,10 +9800,10 @@ local TestText = "- معلومات مبرمج السورس : \\nn: name Dev . ["
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/PPPPPE"}
+{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/aSsSsr"}
 },
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/plllpp"},
+{text = '❲ TorNaDo ❳', url = "https://t.me/TorNaDo_Team0"},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9825,7 +9825,7 @@ local TestText = "  ❲ Developers Bot ❳\n— — — — — — — — —\
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/plllpp"}
+{text = '❲ TorNaDo ❳', url = "https://t.me/TorNaDo_Team0"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9896,7 +9896,7 @@ data = {
 {text = 'Facebook', url = 'https://www.facebook.com/help/deleteaccount'},{text = 'Snapchat', url = 'https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount'}
 },
 {
-{text = '˛ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 .', url = 't.me/plllpp'}, 
+{text = '˛ TorNaDo .', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -9914,10 +9914,10 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Channel Source ،', url = 't.me/plllpp'}, 
+{text = 'Channel Source ،', url = 't.me/TorNaDo_Team0'}, 
 },
 {
-{text = 'Annotations Source', url = 't.me/plllpp'}, 
+{text = 'My Channel', url = 't.me/TorNaDo_Team0'}, 
 },
 {
 {text = 'Communication Source', url = 't.me/TornadooBot'}, 
@@ -9928,7 +9928,7 @@ data = {
 }
 }
 return LuaTele.sendText(msg_chat_id,msg_id, [[
-*⌔︙Source BlackPink *
+*⌔︙Source TorNaDo *
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 ]],"md",false, false, false, false, reply_markup)
 elseif text == 'الاوامر' then
@@ -9955,7 +9955,7 @@ data = {
 {text = 'اوامر القفل الفتح', data = msg.sender.user_id..'/NoNextSeting'}, {text = '  اوامر التعطيل التفعيل  ', data = msg.sender.user_id..'/listallAddorrem'}, 
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -9983,7 +9983,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10003,7 +10003,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10023,7 +10023,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10043,7 +10043,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10063,7 +10063,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10077,7 +10077,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10091,7 +10091,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10106,7 +10106,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10121,7 +10121,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10136,7 +10136,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10151,7 +10151,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10166,7 +10166,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10181,7 +10181,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10196,7 +10196,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10210,7 +10210,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10225,7 +10225,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10240,7 +10240,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10255,7 +10255,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10270,7 +10270,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10286,7 +10286,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10300,7 +10300,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10315,7 +10315,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/plllpp'}, 
+{text = 'TorNaDo', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -10356,20 +10356,20 @@ end
 Redis:del(TheBlackPink.."BlackPink:Name:Bot") 
 return LuaTele.sendText(msg_chat_id,msg_id,"᥀︙تم حذف اسم البوت ","md",true)   
 end
-if text == (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "بلاك بينك") then
-local NamesBot = (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "بلاك بينك")
+if text == (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "تورنادو") then
+local NamesBot = (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "تورنادو")
 local NameBots = {
 "ها "..NamesBot.. " شتريد؟",
 "أჂ̤ أჂ̤ هياتني اني",
 "موجود بس لتصيح",
-"لتــلح دا احجي ويه بنات بلاك بينك بعدين اجاوبك",
+"لتــلح دا احجي ويه بنات تورنادو بعدين اجاوبك",
 "راح نموت بكورونا ونته بعدك تصيح "..NamesBot,
 'يمعود والله نعسان'
 }
 return LuaTele.sendText(msg_chat_id,msg_id, NameBots[math.random(#NameBots)],"md",true)  
 end
 if text == "بوت" then
-local NamesBot = (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "بلاك بينك")
+local NamesBot = (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "تورنادو")
 local BotName = {
 "باوع لك خليني احبك وصيحلي باسمي "..NamesBot,
 "لتخليني ارجع لحركاتي لقديمه وردا ترا اسمي "..NamesBot.. "",
@@ -11311,7 +11311,7 @@ if text == '/start' then
 Redis:sadd(TheBlackPink..'BlackPink:Num:User:Pv',msg.sender.user_id)  
 if not msg.ControllerBot then
 if not Redis:get(TheBlackPink.."BlackPink:Start:Bot") then
-local CmdStart = '*\n᥀︙أهلآ بك في بوت '..(Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "بلاك بينك")..
+local CmdStart = '*\n᥀︙أهلآ بك في بوت '..(Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "تورنادو")..
 '\n᥀︙اختصاص البوت حماية المجموعات'..
 '\n᥀︙لتفعيل البوت عليك اتباع مايلي ...'..
 '\n᥀︙اضف البوت الى مجموعتك'..
@@ -11322,7 +11322,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/plllpp'},{text = '᥀ لتنصيب بوت .', url = 't.me/PPPPPE'}, 
+{text = '᥀ السورس .', url = 't.me/TorNaDo_Team0'},{text = '᥀ لتنصيب بوت .', url = 't.me/PPPPPE'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11335,7 +11335,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/plllpp'},{text = '᥀ لتنصيب بوت .', url = 't.me/PPPPPE'}, 
+{text = '᥀ السورس .', url = 't.me/TorNaDo_Team0'},{text = '᥀ لتنصيب بوت .', url = 't.me/aSsSsr'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -12176,7 +12176,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳',url="t.me/plllpp"}
+{text = '❲ TorNaDo ❳',url="t.me/TorNaDo_Team0"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/TEAMSUL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12454,7 +12454,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -12512,7 +12512,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -12571,7 +12571,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -12624,7 +12624,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -12664,7 +12664,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -12719,7 +12719,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
@@ -12760,7 +12760,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/plllpp'}, 
+{text = '- قناة السورس', url = 't.me/TorNaDo_Team0'}, 
 },
 }
 }
