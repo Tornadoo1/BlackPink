@@ -9909,18 +9909,18 @@ local m = "https://t.me/wffhvv/"..Rrr..""
 local rep = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id="..msg_chat_id.."&caption="..URL.escape(t).."&photo="..m.."&reply_to_message_id="..rep.."&parse_mode=Markdown")
 end
-if text == 'السورس' or text == 'سورس' or text == 'ياسورس'  then
+if text == 'السورس' or text == 'سورسي' or text == 'ياسورس'  then
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Channel Source ،', url = 't.me/TorNaDo_Team0'}, 
+{text = 'Chanduedijaed ،', url = 't.me/TorNaDo_Team0'}, 
 },
 {
-{text = 'My Channel', url = 't.me/plllpp'}, 
+{text = 'mm', url = 't.me/plllpp'}, 
 },
 {
-{text = 'Communication Source', url = 't.me/TornadooBot'}, 
+{text = 'Commue111111111', url = 't.me/TornadooBot'}, 
 },
 {
 {text = 'Developer Source !', url = 't.me/aSsSsr'}, 
